@@ -1,0 +1,178 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: roboto;
+  /* background-color: darkgray; */
+}
+
+#main-logo {
+  padding-left: 0.7rem;
+}
+
+#navbar a {
+  color: #000;
+}
+
+#about {
+  background: #ffff;
+}
+
+#about h3 {
+  margin-top: 1.3rem;
+}
+
+.big-title {
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+}
+
+.title-underline {
+  width: 10rem;
+  height: 0.3rem;
+  margin: 0 auto;
+}
+
+hr {
+  color: #002500;
+  width: bolder;
+}
+
+.block-title {
+  font-family: "Akaya Kanadaka", cursive;
+  font-size: 1.7rem;
+}
+
+.block-text p {
+  text-align: justify;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  line-height: 1.5rem;
+  /* margin: 0 auto; */
+}
+
+.block-honours ul {
+  list-style-type: none;
+}
+
+.block-honours li {
+  text-align: center;
+  padding: 1rem;
+  /* margin-bottom: 2rem; */
+  margin-bottom: 1.5rem;
+}
+
+.block-honours h6 {
+  font-size: 1rem;
+  /* font-family: monospace; */
+  padding-top: 0.7rem;
+}
+
+.block-honours p {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.individual_award_name,
+.champion_name {
+  font-family: "Merienda", cursive;
+  padding-top: 0;
+}
+
+#players {
+  background: #77878b;
+}
+
+#players p {
+  font-size: 1.15rem;
+  letter-spacing: 0.12rem;
+}
+
+#players a {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 1rem;
+  text-align: center;
+}
+
+#players a:hover {
+  color: #002500;
+}
+
+.players_center {
+  min-height: 30vh;
+}
+
+.login {
+  background: #eee;
+}
+
+#login p {
+  font-size: 1.15rem;
+  letter-spacing: 0.12rem;
+}
+
+#login a {
+  text-decoration: none;
+  color: #000;
+}
+
+#login a:hover {
+  color: #fff;
+}
+
+.btn {
+  margin-top: 2rem;
+}
+
+#footer {
+  min-height: 70vh;
+}
+
+/* players page styles */
+#banner h3 {
+  min-height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login page styles */
+
+.btns_center {
+  /* border: none; */
+  padding: 0.6rem;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 3rem;
+}
+
+.btns_left {
+  /* border: none; */
+  padding: 0.6rem;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 3rem;
+}
+
+/* footer / contact section */
+#contact {
+  min-height: 80vh;
+  background: #000;
+}
+
+#contact a {
+  text-decoration: none;
+  padding: 0.6rem;
+}
+
+#contact li {
+  list-style-type: none;
+  padding: 0.6rem;
+}

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- site icon -->
+    <link rel="icon" type="PNG File" href="/Images/Block logo.png" />
+    <title>account</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="/styles/bootstrap.css" />
+
+    <!-- main-css -->
+    <link rel="stylesheet" href="/styles/main.css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- form section -->
+    <section id="form">
+      <div class="container-fluid">
+        <!--nav bar section -->
+        <nav class="navbar navbar-expand-lg navbar-light pt-1">
+          <a class="navbar-brand logo" href="#"
+            ><img
+              class="img-fluid d-inline-block"
+              src="/Images/Block logo.png"
+              alt="main-logo"
+              id="main-logo"
+            />
+            Block D
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbar">
+            <!-- ms-auto place nav-link at the far right while mx-auto place it in the center -->
+            <ul class="navbar-nav ms-auto text-center">
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="./index.html#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="./index.html#about"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="/players.html" target="_blank"
+                  >Players</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#forms">Login/Register</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- end of nav -->
+      </div>
+      <!-- end of container-fluid -->
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 my-3">
+            <div class="card card-body bg-white border-0">
+              <!-- card title -->
+              <div class="card-title text-dark">
+                <h4 class="text-dark p-3 text-center mt-3">
+                  Sign in & follow Block D
+                </h4>
+              </div>
+
+              <!-- form -->
+              <form>
+                <!-- email field -->
+                <label for="email" class="form-label ps-3 mt-4"
+                  >Email address</label
+                >
+                <div class="form-group mt-2">
+                  <input
+                    type="email"
+                    class="form-control ms-3 py-2"
+                    id="email"
+                    placeholder="email"
+                  />
+                </div>
+
+                <label for="password" class="form-label ps-3 mt-5"
+                  >Password</label
+                >
+                <br />
+                <div class="form-group mt-2">
+                  <input
+                    type="password"
+                    class="form-control ms-3 py-2"
+                    id="password"
+                    placeholder="password"
+                    minlength="8"
+                    required
+                  />
+                </div>
+
+                <button
+                  type="button"
+                  class="btns_left ms-5 w-75 my-4 btn-outline-dark"
+                >
+                  Sign in
+                </button>
+              </form>
+              <!-- end of form -->
+            </div>
+            <!-- end of card -->
+          </div>
+          <!-- end of col -->
+
+          <!-- new col -->
+          <div class="col-md-6 my-3">
+            <div class="card card-body bg-white border-0">
+              <!-- card title -->
+              <div class="card-title text-center text-dark">
+                <h4 class="text-dark p-3 text-center mt-3">
+                  Register for a new account
+                </h4>
+              </div>
+
+              <p class="text-center text-muted mt-5">
+                Follow the official account of your block
+              </p>
+              <br />
+              <p class="text-muted text-center ms-3" style="font-size: 1.12rem">
+                With live video streaming of matches, audio match commentary,
+                behind the scenes content, newsletters, match highlights and
+                much more, there’s no better way to get closer to your block.
+              </p>
+              <button type="button" class="btns_center btn-outline-secondary">
+                Register now
+              </button>
+            </div>
+            <!-- end of new col -->
+          </div>
+          <!-- end of role -->
+        </div>
+      </div>
+    </section>
+    <!-- section end -->
+
+    <!-- footer  / contact -->
+    <section id="contact">
+      <footer class="container-fluid text-white">
+        <!-- inside container -->
+        <div class="container-fluid py-4">
+          <!-- row -->
+          <div class="row">
+            <div class="col-lg-3 mb-0">
+              <i class="fas fa-location-arrow float-start mt-2 p-2"></i>
+              <p class="footer-p p-1 ms-2">
+                Beh-wien Community <br />
+                Barnesville Estate,Liberia
+              </p>
+            </div>
+
+            <div class="col-lg-3 mb-1">
+              <i class="fas fa-phone-alt float-start mt-1 p-2"></i>
+              <p class="footer-p p-2 ms-2">+231- 555-000-222</p>
+
+              <i class="far fa-envelope float-start p-1"></i>
+              <p class="footer-p ms-2">
+                <a href="#" class="text-warning ps-2">blockd@info.co.lib </a>
+              </p>
+            </div>
+
+            <div class="col-lg-3">
+              <ul>
+                <li>Contact Us</li>
+                <li>Privacy</li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 text-center mb-2">
+              <a href="#" class="text-white">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="#" class="text-white">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="text-white">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+          <!-- end of row -->
+
+          <!-- row -->
+          <div class="row">
+            <div class="col-md-4-text text-center col-lg-3 py-4">
+              <img
+                src="/Images/sponsors/adidas_logo.png"
+                width="200"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="col-md-4-text text-center col-lg-4">
+              <img
+                src="/Images/sponsors/cocola_logo.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="col-md-4-text text-center col-lg-4">
+              <img
+                src="/Images/sponsors/mtn logo.png"
+                alt=""
+                width="200"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <!-- end of row -->
+        </div>
+        <!-- end of inside container -->
+        <p class="text-muted text-center pt-5 mt-3">
+          Copyright &copy; 2020 Block D Team. All Rights Reserved
+        </p>
+        <div class="text-center pt-5 mt-5">
+          <p class="text-center text-muted pt-3">
+            Coded by Block Captain
+            <small class="text-warning">Ernest Gbaboh</small><br />
+            <a href="https://www.instagram.com/e.g_jr/" target="_blank">
+              <i class="fab fa-instagram text-white py-3"></i>
+            </a>
+            <a href="https://www.instagram.com/e.g_jr/" target="_blank">
+              <i class="fab fa-facebook text-white py-3"></i>
+            </a>
+          </p>
+        </div>
+      </footer>
+    </section>
+
+    <!-- bootstrap -->
+    <script src="/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
