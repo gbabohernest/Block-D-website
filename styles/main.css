@@ -137,7 +137,7 @@ hr {
 
 /* players page styles */
 #banner h3 {
-  min-height: 25vh;
+  min-height: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -159,6 +159,36 @@ hr {
   width: 50%;
   margin: 0 auto;
   border-radius: 3rem;
+}
+
+/* players section styles */
+.images-card {
+  width: 20%;
+  float: left;
+}
+
+.card-head h6 {
+  font-size: 1rem;
+  /* font-family: "Raleway", sans-serif; */
+  font-weight: 700;
+}
+
+.card-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 3rem;
+  padding: 0.7rem;
+}
+
+.card-head p {
+  font-size: 0.75rem;
+}
+
+.inner-test-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* footer / contact section */
